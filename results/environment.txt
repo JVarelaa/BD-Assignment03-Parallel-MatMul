@@ -1,0 +1,58 @@
+
+===== date =====
+2026-11-12T12:10:31+00:00
+
+===== os =====
+NAME="Fedora Linux"
+VERSION="44 (Workstation Edition)"
+Linux 7.1.7-200.fc44.x86_64 x86_64
+
+===== cpu =====
+CPU(s):                                  12
+Model name:                              13th Gen Intel(R) Core(TM) i5-1335U
+Thread(s) per core:                      2
+Core(s) per socket:                      10
+Socket(s):                               1
+CPU(s) scaling MHz:                      78%
+CPU max MHz:                             4600.0000
+CPU min MHz:                             400.0000
+L1d cache:                               352 KiB (10 instances)
+L1i cache:                               576 KiB (10 instances)
+L2 cache:                                6.5 MiB (4 instances)
+L3 cache:                                12 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-11
+
+===== hybrid cores =====
+P-cores (cpu_core): 0-3
+E-cores (cpu_atom): 4-11
+
+===== frequency policy =====
+governor: performance
+platform_profile: performance
+no_turbo: 0
+AC online: 1
+
+===== memory =====
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       5.3Gi       267Mi       542Mi       2.7Gi       2.1Gi
+Swap:          7.4Gi       4.1Gi       3.3Gi
+
+===== load =====
+1.23 0.56 0.36 2/1516 184011
+
+===== gcc =====
+gcc (GCC) 16.2.1 20260819 (Red Hat 16.2.1-2)
+CFLAGS: -O2 -std=c17 -Wall -Wextra -ffp-contract=off -fopenmp (BS=64)
+libgomp: /usr/lib64/libgomp.so.1.0.0
+
+===== glibc =====
+ldd (GNU libc) 2.43
+
+===== python =====
+Python 3.14.6
+
+===== analysis venv =====
+numpy 2.5.4
+matplotlib 3.11.2
+reportlab 5.0.1
